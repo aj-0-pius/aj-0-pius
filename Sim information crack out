@@ -1,6 +1,5 @@
 import phonenumbers
-import geocoder
-import timezone 
+from phonenumbers import geocode,carrier,timezone
 import time
 number = ("\n\t Enter your phone number(With country code):")
 parseNumber = phonenumbers,parseNumber
@@ -8,5 +7,5 @@ parseNumber = phonenumbers,parseNumber
 print("\n\t Please waite a moment...")
 time.sleep(2)
 print("\n\t Country Name", geocodergeocoder.description_for_number(parseNumber,"en"))
-print("\n\t Sim name:",pysimcard.name_for_number(parseNumber,"en"))
+print("\n\t Sim name:"carrier.name_for_number(parseNumber,"en"))
 print("\n\t Time zone",timezone.time_zones_for_number(parseNumber))
