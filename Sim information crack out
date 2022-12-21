@@ -1,11 +1,17 @@
 import phonenumbers
-from phonenumbers import geocode,carrier,timezone
-import time
-number = ("\n\t Enter your phone number(With country code):")
-parseNumber = phonenumbers,parseNumber
 
-print("\n\t Please waite a moment...")
+from phonenumbers import geocoder,carrier,timezone
+import time
+
+number = input("\n\tEnter your namber(with Country code): ")
+
+parseNumber = phonenumbers.parse(number)
+
+print("\n\tPlease wait a moment...")
 time.sleep(2)
-print("\n\t Country Name", geocodergeocoder.description_for_number(parseNumber,"en"))
-print("\n\t Sim name:"carrier.name_for_number(parseNumber,"en"))
-print("\n\t Time zone",timezone.time_zones_for_number(parseNumber))
+
+print("\n\t Country Name:", geocoder.description_for_number(parseNumber,"en"))
+
+print("\n\t Sim Name :", carrier.name_for_number(parseNumber,"en"))
+
+print("\n\t Time Zone:", timezone.time_zones_for_number(parseNumber))
