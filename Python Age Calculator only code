@@ -1,12 +1,13 @@
-# Python program to age calculate By (aj_0_pius)
+import datetime
 
+# using now() to get current time
+current_time = datetime.datetime.now()
 
+# Python program to calculate range
 def findAge(current_date, current_month, current_year,
 			birth_date, birth_month, birth_year):
 
 	# if birth date is greater than current date
-
-	
 	month =[31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 	if (birth_date > current_date):
 		current_month = current_month - 1
@@ -24,15 +25,25 @@ def findAge(current_date, current_month, current_year,
 	
 	# print present age
 	print("Present Age")
-	print( calculated_year, "Year,",
-		calculated_month, "Month,", calculated_date, "Day","\nAll Edit By'\Minhajul Abadin Pius/'(aj_0_pius)\nThank You")
+	print(calculated_year, "Years:", calculated_month,"Months:",
+		calculated_date, "Days:", "\nAll Code By;\n\Minhajul Abadin Pius/(aj_0_pius)\nThank You")
 	
-# You have to give the current date
-
-current_date = 
-current_month = 
-current_year = 
+# driver code
+current_date = (current_time.day)
+current_month = (current_time.month)
+current_year = (current_time.year)
 		
+# birth dd//mm//yyyy
+birth_date =  input("Your Birth Date :")
+birth_date = int(birth_date)
+birth_month = input("Enter Your Birth Month :")
+birth_month = int(birth_month)
+birth_year = input("Enter Your Birth Year :")
+birth_year = int(birth_year)
+
+findAge(current_date, current_month, current_year,
+		birth_date, birth_month, birth_year)
+
 # birth dd//mm//yyyy Taked by User 
 birth_date =  input("Your Birth Date: ")
 birth_date = int(birth_date)
