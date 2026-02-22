@@ -1,5 +1,5 @@
 # 💫 About Me:
-iam good at network security a good it spesalist and going to do cyber security Nand warning to study in network engineering
+Hello, I'm Minhajul Abadin Pius. I am a dedicated IT Specialist with a strong foundation in network security, cryptography, and secure networking protocols. Driven by the challenge of protecting digital assets, I am currently transitioning deeper into Cyber Security. Alongside my practical IT work, I am preparing to further my studies in Network Engineering to design resilient, future-proof infrastructures.
 
 
 ## 🌐 Socials:
